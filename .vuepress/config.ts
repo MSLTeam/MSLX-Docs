@@ -7,6 +7,8 @@ export default defineUserConfig({
   title: "MSLX",
   description: "MSLX-新一代跨平台服务器管理/联机工具",
   bundler: viteBundler(),
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  lang: "zh-CN",
   // bundler: webpackBundler(),
   theme: recoTheme({
     logo: "/logo.png",
