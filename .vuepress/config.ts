@@ -13,10 +13,10 @@ export default defineUserConfig({
     logo: "/logo.png",
     author: "MSLTeam",
     authorAvatar: "/logo.png",
-    docsRepo: "https://github.com/vuepress-reco/vuepress-theme-reco-next",
-    docsBranch: "main",
+    docsRepo: "https://github.com/MSLTeam/MSLX-Docs",
+    docsBranch: "master",
     docsDir: "docs",
-    lastUpdatedText: "",
+    lastUpdatedText: "上次更新",
     // series 为原 sidebar
     series: {
       "/docs/quickstart/": [
