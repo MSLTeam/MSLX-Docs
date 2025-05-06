@@ -28,7 +28,7 @@ export default defineUserConfig({
     },
     navbar: [
       { text: "主页", link: "/" },
-      { text: "文档", link: "/docs" },
+      { text: "文档", link: "/docs/quickstart" },
       {
         text: "友情链接",
         children: [
