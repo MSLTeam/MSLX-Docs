@@ -11,7 +11,7 @@ bannerBrand:
   tagline: MSLX延续MSL的设计风格，基于.NET开发，跨平台支持！开服，运行Frp轻轻松松~
   buttons:
     - { text: 立即下载, link: 'https://files.mslmc.cn/MSLX-Dev/Dev' }
-    - { text: 阅读文档, link: '/docs/quickstart', type: 'plain' }
+    - { text: 阅读文档, link: '/docs/quickstart/windows', type: 'plain' }
   socialLinks:
     - { icon: 'LogoGithub', link: 'https://github.com/vuepress-reco/vuepress-theme-reco' }
 isShowTitleInHome: true
@@ -19,6 +19,8 @@ actionText: About
 actionLink: /views/other/about
 ---
 
-## 快速开始
+## MSLX
 
-下载MSLX并解压，双击即可启动~
+火热开发🔥🔥🔥
+
+![MSLX](./assets/mslx_home.png)

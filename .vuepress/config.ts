@@ -18,10 +18,10 @@ export default defineUserConfig({
     lastUpdatedText: "",
     // series 为原 sidebar
     series: {
-      "/docs/": [
+      "/docs/quickstart/": [
         {
           text: "快速开始",
-          children: ["quickstart"],
+          children: ["windows","macos","linux"],
           icon: ""
         }
       ],
