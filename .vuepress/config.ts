@@ -18,25 +18,22 @@ export default defineUserConfig({
     lastUpdatedText: "",
     // series 为原 sidebar
     series: {
-      "/docs/theme-reco/": [
+      "/docs/": [
         {
-          text: "module one",
-          children: ["home", "theme"],
-        },
-        {
-          text: "module two",
-          children: ["api", "plugin"],
-        },
+          text: "快速开始",
+          children: ["quickstart"],
+          icon: ""
+        }
       ],
     },
     navbar: [
-      { text: "Home", link: "/" },
-      { text: "Categories", link: "/categories/reco/1.html" },
-      { text: "Tags", link: "/tags/tag1/1.html" },
+      { text: "主页", link: "/" },
+      { text: "文档", link: "/docs" },
       {
-        text: "Docs",
+        text: "友情链接",
         children: [
-          { text: "vuepress-reco", link: "/docs/theme-reco/theme" },
+          { text: "MSL", link: "https://www.mslmc.cn" },
+          { text: "MSL用户中心", link: "https://user.mslmc.net" },
         ],
       },
     ],
